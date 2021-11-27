@@ -7,6 +7,43 @@
         </title>
     </head>
     <body>
-       هنا تكتبون الحل
+        <form action="page.php" method="post">
+            <fieldset>
+                <legend><h2><b><i>Good Vibes Form</i></b></h2></legend><br>
+                <h3>Name</h3>
+                <input type="text" placeholder="Bella"><br>
+                 <h3>Age </h3>
+                <input type="number" placeholder="20"><br>
+                 <h3>E-mail </h3>
+                 <input placeholder="xxx@test.com"><br>
+                <h4>Rate How amazing it was from 1-10:</h4>
+                <input type="number" placeholder="10"><br><br>
+            <h3> Where did it happen?</h3>
+                <select>
+                    <option>at home</option>
+                    <option>at university</option>
+                    <option>at the station</option>
+                    <option>others</option>
+                </select><br><br>
+                <h3>At what time of the day did it happen</h3>
+                <input type="radio">Morning <br>
+                   <input type="radio"> Afternoon <br>
+                    <input type="radio">Evening <br><br>
+                    <h3> What kind of emotions did you expirience?<br>(Select all that apply)</h3>
+                    <input type="checkbox">Excited&nbsp;&nbsp; <br>
+                    <input type="checkbox">Humbled <br>
+                    <input type="checkbox">Elated <br>
+                    <input type="checkbox">loved<br>
+                   <input type="checkbox">Enthusiastic <br><br>
+            <h3>Please discribe your positive expirience:</h3>
+            <textarea> Enter your expirience </textarea><br><br>
+        </form>
+        <button type="submit" value="done">submit</button>
+    </fieldset>
+    <footer>
+        <center>
+            &copy; for CS50 class
+        </center>
+    </footer>
     </body>
 </html>
